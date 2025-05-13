@@ -1,0 +1,12 @@
+name = "stackedsignature"
+main = "./.cloudflare/workers/script.js"
+compatibility_date = "2025-05-13"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "./build.sh"
+
+[triggers]
+crons = []
